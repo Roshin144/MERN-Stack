@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #8eabab;
+            color: #333;
+        }
+
+        header {
+            background: #111;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 36px;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: rgb(194, 198, 198);
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #00adb5;
+        }
+
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .about img {
+            width: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .projects {
+            background: rgb(114, 117, 113);
+        }
+
+        .project-box {
+            background: #eee;
+            margin: 20px auto;
+            padding: 20px;
+            width: 80%;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        .project-box:hover {
+            background: #00adb5;
+            color: white;
+            transform: scale(1.03);
+        }
+
+        .contact {
+            background: #111;
+            color: white;
+        }
+
+        footer {
+            background: black;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        @media(max-width:768px){
+            .project-box {
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Roshin Gukan</h1>
+    <p>Web Developer | MERN Stack Developer | Student</p>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about" class="about">
+    <img src="yourphoto.jpg" alt="Profile Photo">
+    <h2>About Me</h2>
+    <p>
+        Hello! I am a Computer Science student passionate about Web Development.
+        I build responsive and modern websites using HTML, CSS, JavaScript and MERN stack.
+    </p>
+</section>
+
+<section id="projects" class="projects">
+    <h2>My Projects</h2>
+
+    <div class="project-box">
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio website created using HTML and CSS.</p>
+    </div>
+
+    <div class="project-box">
+        <h3>ATM System</h3>
+        <p>Designed ATM system using UML diagrams in OOAD.</p>
+    </div>
+
+    <div class="project-box">
+        <h3>MERN Stack Project</h3>
+        <p>Full stack web application using MongoDB, Express, React, Node.js.</p>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: roshing2006@gmail.com</p>
+    <p>Phone: +91 81483 57017</p>
+    <p>LinkedIn: <a href ="http://www.linkedin.com/in/roshin-gukan-9b4a84290">  LinkedIn</a></p>
+    <p>GitHub: <a href ="http://github.com/Roshin144"> GitHub</a></p>
+</section>
+
+<footer>
+    <p>© 2026 Roshin Gukan | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
